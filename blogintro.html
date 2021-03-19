@@ -45,8 +45,8 @@
             @media (max-width: 576px) {
                 #image1 {
                     position: absolute;
-                    top: 0.6rem;
-                    left: 2rem;
+                    top: 0.2rem;
+                    left: 3.5rem;
                 }
             }
             #image2 {
@@ -54,15 +54,38 @@
                 top: 2rem;
                 left: 18rem;
             }
+            @media (max-width: 576px) {
+                #image2 {
+                    position: absolute;
+                    left: 0rem;
+                    top: 0.2rem;
+                    margin-left: 0;
+                }
+            }
             #image3 {
                 position: absolute;
                 top: 2rem;
                 right: 4rem;
             }
+            @media (max-width: 576px) {
+                #image3 {
+                    position: absolute;
+                    top: 0.2rem;
+                    right: 0rem;
+                    margin-right: 0;
+                }
+            }
             #image4 {
                 position: absolute;
                 top: 2rem;
                 right: 18rem;
+            }
+            @media (max-width: 576px) {
+                #image4 {
+                    position: absolute;
+                    top: 0.2rem;
+                    right: 3.5rem;
+                }
             }
             .content {
                 margin: 2rem;
@@ -71,6 +94,14 @@
                 text-align: center;
                 letter-spacing: 0.2rem;
                 word-spacing: 0.3rem;
+            }
+            @media (max-width: 576px)  {
+                .content {
+                    margin: auto;
+                    font-size: small;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                }
             }
             .box {
                 margin-top: 2rem;
